@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pandas',
-        'snowballstemmer'
+        'snowballstemmer>=2.0.0'
     ],
     extras_require={
         'dev': [
