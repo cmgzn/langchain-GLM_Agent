@@ -1,3 +1,3 @@
 #!/bin/bash
-sphinx-apidoc -f -o source ../../data_juicer -t _templates
+sphinx-apidoc -f -o source ../../models -t _templates
 make clean html
